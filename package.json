@@ -11,9 +11,9 @@
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "engines": {
-    "node": "10.16.0"
+    "node": "12.16.0"
   },
-  "author": "Andrew Mayes",
+  "author": "Bryan Guner",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -21,7 +21,7 @@
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.7.0",
+    "mongoose": "^5.7.14",
     "multer": "^1.4.2",
     "react-avatar-edit": "^0.8.3"
   },
