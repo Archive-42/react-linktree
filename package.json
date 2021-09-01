@@ -11,9 +11,9 @@
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "engines": {
-    "node": "10.16.0"
+    "node": "12.16.0"
   },
-  "author": "Andrew Mayes",
+  "author": "Bryan Guner",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
